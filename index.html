@@ -13,14 +13,37 @@
         <p>Web ini digunakan untuk menghitung luas dan keliling persegi</p>
     </header>
 
+
+    <img id="squareImage" src="https://awsimages.detik.net.id/community/media/visual/2022/08/16/bujur-sangkar.jpeg?w=1037" alt="Persegi">
+
+
+    <p>Rumus keliling persegi yaitu :</p>
+    <p id="rumus">K = 4 x S</p>
+    <p>Rumus luas persegi yaitu :</p>
+    <p id="rumus">L = S x S</p>
+    <p>Dimana :</p>
+    <p>K = Keliling</p>
+    <p>L = Luas</p>
+    <p>S = Sisi</p>
+    <hr>
+
     <div class="inputsection">
-        <label for="squareSide" id="lblSquareSide">Hitung Luas Persegi</label><br>
-        <input type="number" id="squareSide">
+        <label for="squareSide" id="lblSquareSide">Hitung Luas dan Keliling Persegi</label><br>
+        <input type="number" id="squareSide" >
     </div>
+ 
+    
+    <p id="luasP"></p>
+    <p id="kelilingP"></p>
 
     <div class="button">
-        <button class="katikButton" id="countbutton">Hitung</button>
-        <button id="resetbutton">Reset</button>
+        <button class="katikButton" id="countbutton" onclick="hitung()">Hitung</button>
+        <button id="resetbutton" onclick="reset()" background-color=#FE7A36>Reset</button>
     </div>
+
+    <p id="luasP"></p>
+    <p id="kelilingP"></p>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
