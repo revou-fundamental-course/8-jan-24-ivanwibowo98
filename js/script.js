@@ -9,7 +9,6 @@ function hitung() {
 }
 
 function reset() {
-    // Mengosongkan nilai input dan hasil
     document.getElementById('squareSide').value = '';
     document.getElementById('luasP').innerHTML = '';
     document.getElementById('kelilingP').innerHTML = '';
