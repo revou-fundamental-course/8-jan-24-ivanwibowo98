@@ -44,6 +44,15 @@ div {
     /* text-align: center; */
 }
 
+div.mainbody {
+    background-color: #FFFFE4;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #332941;
+    border-style:solid;
+
+}
+
 button {
     background-color: #F8E559;
     border-radius: 16px;
