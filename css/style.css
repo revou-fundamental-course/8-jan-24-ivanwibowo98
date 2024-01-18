@@ -50,6 +50,8 @@ div.mainbody {
     border-width: 2px;
     border-color: #332941;
     border-style:solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
 
 }
 
@@ -71,8 +73,8 @@ transform: translateY(10px)
 }
 
 #squareImage {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 150px;
+    max-height: 150px;
     display: block;
     margin: 0 auto; 
   }
@@ -103,3 +105,7 @@ transform: translateY(10px)
     background-color: #332941;
     transform: translateY(10px)
     }
+
+#rumus {
+    background-color: #FE7A36;
+}
